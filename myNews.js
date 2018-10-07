@@ -17,9 +17,11 @@ request(url, (err, response, body) => {
         categoryList.each((idx, item) => {
             todayCategories.push($(item).text())
         });
+
         titleList.each((idx, item) => {
             todayTitle.push($(item).text())
         });
+
         textList.each((idx, item) => {
             todayText.push($(item).text())
         });
